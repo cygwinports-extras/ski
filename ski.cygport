@@ -1,5 +1,5 @@
 NAME="ski"
-VERSION=6.7
+VERSION=6.8
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Console skiing game with a twist"
@@ -10,8 +10,10 @@ going; only behind where you have been. However, you can turn to either side,
 jump or hop through the air, teleport through hyperspace, launch nuclear ICBMs,
 and cast spells to call the Fire Demon. And since the hazards occur in patches,
 you can skillfully outmaneuver them."
-HOMEPAGE="http://www.catb.org/~esr/${PN}/"
-SRC_URI="http://www.catb.org/~esr/${PN}/${P}.tar.gz"
+HOMEPAGE="http://www.catb.org/~esr/ski"
+SRC_URI="http://www.catb.org/~esr/ski/ski-${VERSION}.tar.gz"
+
+ARCH=noarch
 
 src_compile() { :; }
 
